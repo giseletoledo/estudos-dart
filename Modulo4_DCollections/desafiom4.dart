@@ -114,7 +114,7 @@ void MaisVelho(Set<String> listaSet) {
     return idade2.compareTo(idade1);
   });
 
-  var nomeMaisVelho = newList.first;
+  var dadosMaisVelho = newList.first;
 
-  print('A pessoa mais velha é ${nomeMaisVelho[0]} com ${nomeMaisVelho[1]}');
+  print('A pessoa mais velha é ${dadosMaisVelho[0]} com ${dadosMaisVelho[1]}');
 }
