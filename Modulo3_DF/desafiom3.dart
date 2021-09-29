@@ -21,11 +21,14 @@ void main() {
   var nomePaciente;
   var idadePaciente;
   var profissaoPaciente;
-  //svar qtdePaciente;
+  var cidadePaciente;
+  var listaCidades = [];
+  var qtdeCidade = 0;
   var dev = 0;
   var estudante = 0;
   var dentista = 0;
   var jornalista = 0;
+  var contador = 0;
 
   for (var paciente in pacientes) {
     dadosPacientes = paciente.split('|').toList();
@@ -64,4 +67,25 @@ void main() {
   }
   print(
       "Tem $dev desenvolvedores, $estudante estudantes, $dentista dentistas, $jornalista jornalistas");
+
+  print('*************************************************');
+  print('****Quantidade de pacientes que moram em SP****');
+  for (var paciente in pacientes) {
+    dadosPacientes = paciente.split('|').toList();
+    cidadePaciente = dadosPacientes[3];
+    var cidades = cidadePaciente.toString();
+    listaCidades.add(cidades);
+
+    var contador = 0;
+
+    listaCidades.forEach((cidade) {
+      //print(cidade);
+      if (cidade == 'SP') {
+        //print(cidade);
+        contador++;
+      }
+      qtdeCidade = contador;
+    });
+  }
+  print(qtdeCidade);
 }
