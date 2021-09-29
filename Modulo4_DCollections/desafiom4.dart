@@ -60,20 +60,25 @@ void main() {
   print('*************************************************');
   print('***************Lista original********************');
   print(pessoas);
-  print("A lista tem ${pessoas.length}");
+  print("A lista tem ${pessoas.length} pessoas");
 
   print('*************************************************');
   print('******Nova lista sem pacientes duplicados********');
-
   print(novaLista);
-  print("A lista tem ${novaLista.length}");
+  print("A lista tem ${novaLista.length} pessoas");
+
   print('*************************************************');
   print('**Maiores de 18**');
   nomesMaiores18.forEach(print);
-  print('**Quantidade de pessoas por genero**');
+
+  print('*************************************************');
+  print('********Quantidade de pessoas por genero*********');
   qtdeGenero.forEach((key, value) {
     print("$key: $value");
   });
+
+  print('*************************************************');
+  print('**************Pessoa mais velha******************');
   MaisVelho(listaSet);
 }
 
