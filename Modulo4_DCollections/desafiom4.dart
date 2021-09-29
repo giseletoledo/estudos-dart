@@ -68,7 +68,7 @@ void main() {
   print("A lista tem ${novaLista.length} pessoas");
 
   print('*************************************************');
-  print('**Maiores de 18**');
+  print('******************Maiores de 18******************');
   nomesMaiores18.forEach(print);
 
   print('*************************************************');
