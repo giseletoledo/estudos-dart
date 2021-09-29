@@ -28,7 +28,6 @@ void main() {
   var estudante = 0;
   var dentista = 0;
   var jornalista = 0;
-  var contador = 0;
 
   for (var paciente in pacientes) {
     dadosPacientes = paciente.split('|').toList();
