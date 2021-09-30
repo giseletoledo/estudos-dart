@@ -3,7 +3,7 @@ import 'camiseta.dart';
 void main() {
   var camisetaNike = Camiseta();
   camisetaNike.tamanho = 'G';
-  camisetaNike.cor = 'Preta';
+  camisetaNike.cor = 'Branca';
   camisetaNike.marca = 'Nike';
 
   print('''

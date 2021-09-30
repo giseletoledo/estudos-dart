@@ -7,6 +7,8 @@ class Camiseta {
   set cor(String? cor) {
     if (cor == 'Verde') {
       throw Exception('Não pode ser verde');
+    } else {
+      _cor = cor;
     }
   }
 
