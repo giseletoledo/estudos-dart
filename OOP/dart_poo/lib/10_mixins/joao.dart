@@ -3,7 +3,7 @@ import 'package:dart_poo/10_mixins/cantar.dart';
 
 import 'dancar.dart';
 
-//Para ser um mixin Dancar e Cantar não podem extender de outra classe
+//Para ser um mixin Cantar não podem extender de outra classe
 class Joao extends Artista with Dancar, Cantar {}
 
 
