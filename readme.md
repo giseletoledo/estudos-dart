@@ -2,4 +2,4 @@
 
 Códigos do curso
 
-Canal do Youtube da Academia do flutter: https://www.youtube.com/c/RodrigoRahmangit 
+Canal do Youtube da Academia do flutter: https://www.youtube.com/c/RodrigoRahman 
