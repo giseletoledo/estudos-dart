@@ -59,7 +59,8 @@ class _ImcBlocPatternPageState extends State<ImcBlocPatternPage> {
                     stream: controller.imcOut,
                     builder: (context, snapshot) {
                       final dataValue = snapshot.data;
-                      if (snapshot is ImcStateLoading) {
+
+                      if (dataValue is ImcStateLoading) {
                         return const Center(child: CircularProgressIndicator());
                       }
                       if (dataValue is ImcStateError) {
