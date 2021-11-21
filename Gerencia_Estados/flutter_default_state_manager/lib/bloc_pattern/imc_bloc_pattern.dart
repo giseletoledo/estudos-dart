@@ -58,10 +58,14 @@ class _ImcBlocPatternPageState extends State<ImcBlocPatternPage> {
                 StreamBuilder<ImcState>(
                     stream: controller.imcOut,
                     builder: (context, snapshot) {
-                      return Visibility(
-                        visible: snapshot.data is ImcStateLoading,
-                        child: const Center(child: CircularProgressIndicator()),
-                      );
+                      final dataValue = snapshot.data;
+                      if (snapshot is ImcStateLoading) {
+                        return const Center(child: CircularProgressIndicator());
+                      }
+                      if (dataValue is ImcStateError) {
+                        return Text(dataValue.message);
+                      }
+                      return const SizedBox.shrink();
                     }),
                 TextFormField(
                   controller: pesoEC,
