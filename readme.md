@@ -1,6 +1,6 @@
 ## Academia do Flutter
 
-Códigos do curso
+Praticando Dart e Flutter.
 
 [Dart OOP](https://github.com/gisesma/Estudos-Dart/tree/master/OOP/dart_poo)
 
