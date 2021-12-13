@@ -1,6 +1,8 @@
-# flutter_default_state_manager
+# Flutter state manager
 
-A new Flutter project.
+Gerenciamento de estados, utilizando setState, ChangeNotifier e Bloc, app que faz o cálculo do IMC. Utiliza um widget que funciona como uma balança, com um ponteiro apontando para o resultado do cálculo.
+
+<img src="https://github.com/gisesma/estudos-dart/blob/master/Gerencia_Estados/flutter_default_state_manager/Screenshot_1637424388.png" width="70%" height="70%" alt="Tela da calculadora de IMC">
 
 ## Getting Started
 
