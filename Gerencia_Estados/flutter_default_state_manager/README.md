@@ -2,7 +2,7 @@
 
 Gerenciamento de estados, utilizando setState, ChangeNotifier e Bloc, app que faz o cálculo do IMC. Utiliza um widget que funciona como uma balança, com um ponteiro apontando para o resultado do cálculo.
 
-<img src="https://github.com/gisesma/estudos-dart/blob/master/Gerencia_Estados/flutter_default_state_manager/Screenshot_1637424388.png" width="40%" height="40%" alt="Tela da calculadora de IMC">
+<img src="https://github.com/gisesma/estudos-dart/blob/master/Gerencia_Estados/flutter_default_state_manager/Screenshot_1637424388.png" width="30%" height="30%" alt="Tela da calculadora de IMC">
 
 ## Getting Started
 
